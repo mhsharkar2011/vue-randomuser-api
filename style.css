@@ -41,7 +41,7 @@ img {
   background-color: pink;
   color: #333;
 }
-button {
+.button {
   cursor: pointer;
   display: inline-block;
   background: #333;
