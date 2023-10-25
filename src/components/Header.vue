@@ -1,11 +1,12 @@
 <template>
-    <h1 class="green">{{ test }}</h1>
-    <button class="btn" v-on:click="click">Click Me</button>
+    <header>
+    <h1>{{ title="title" }}</h1>
+  </header>
 </template>
 
 <script setup>
 defineProps({
-    test:{
+    title:{
         type:String,
         required:true,
     }
